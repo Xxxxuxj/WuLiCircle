@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AxcAE_TabBar (1.0.5)
+  - BmobSDK (2.4.1)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - TZImagePickerController (3.6.7)
+  - WMZDialog (1.4.5)
+  - ZQSearch (0.1.9):
+    - SDWebImage (>= 4.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AxcAE_TabBar
+  - BmobSDK
+  - TZImagePickerController
+  - WMZDialog
+  - ZQSearch
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AxcAE_TabBar
+    - BmobSDK
+    - SDWebImage
+    - TZImagePickerController
+    - WMZDialog
+    - ZQSearch
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AxcAE_TabBar: 1d5bcf6c4921889dc38839b6ba2c584a9b55251a
+  BmobSDK: 930525437e6602f7146108e11a9796604a1edbb9
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  TZImagePickerController: 679ae9fa11e189a9a81291ae96f0a4463be8edc1
+  WMZDialog: 0cb37d656a5929cd5a13597b70b041355c76329b
+  ZQSearch: de5e8f91ee215d891bb8345ecae9094d04fef73a
+
+PODFILE CHECKSUM: 66f2c5573921c27f3f4304908eb36640aa62a30f
+
+COCOAPODS: 1.11.2
