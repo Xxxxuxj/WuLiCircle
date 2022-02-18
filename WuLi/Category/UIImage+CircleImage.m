@@ -9,6 +9,15 @@
 
 @implementation UIImage (CircleImage)
 
+- (id)imageName{
+    return self.imageName;
+}
+
+-(void)setImageName:(NSString *)imageName{
+    
+}
+
+
 //将图片裁剪成圆形
 - (UIImage *)circleImage
 {

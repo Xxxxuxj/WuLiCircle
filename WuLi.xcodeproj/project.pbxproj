@@ -91,6 +91,7 @@
 		0496211E2779A54A00999EE8 /* LabelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496211D2779A54A00999EE8 /* LabelCollectionViewCell.m */; };
 		0496212A277C9CA700999EE8 /* GetCommodityOrCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04962129277C9CA700999EE8 /* GetCommodityOrCircle.m */; };
 		0496212E277CA90400999EE8 /* GetUserInformationByUserID.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496212D277CA90400999EE8 /* GetUserInformationByUserID.m */; };
+		04D678CF27B8E06400CEC8A6 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04D678CD27B8E06400CEC8A6 /* UserModel.xcdatamodeld */; };
 		630ED72B0BF4D90180EF14BF /* libPods-WuLi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B9E626C8991825DED7C150 /* libPods-WuLi.a */; };
 /* End PBXBuildFile section */
 
@@ -277,6 +278,7 @@
 		04962129277C9CA700999EE8 /* GetCommodityOrCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetCommodityOrCircle.m; sourceTree = "<group>"; };
 		0496212C277CA90400999EE8 /* GetUserInformationByUserID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetUserInformationByUserID.h; sourceTree = "<group>"; };
 		0496212D277CA90400999EE8 /* GetUserInformationByUserID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetUserInformationByUserID.m; sourceTree = "<group>"; };
+		04D678CE27B8E06400CEC8A6 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
 		3347ED360A0CCF2A14AFE075 /* Pods-WuLi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuLi.debug.xcconfig"; path = "Target Support Files/Pods-WuLi/Pods-WuLi.debug.xcconfig"; sourceTree = "<group>"; };
 		71B9E626C8991825DED7C150 /* libPods-WuLi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WuLi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F0DF2A9E639C1BABFADDA5 /* Pods-WuLi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuLi.release.xcconfig"; path = "Target Support Files/Pods-WuLi/Pods-WuLi.release.xcconfig"; sourceTree = "<group>"; };
@@ -535,6 +537,7 @@
 				04881CE52750D207005C7CB5 /* Info.plist */,
 				04881CE62750D207005C7CB5 /* main.m */,
 				04881CDD2750D204005C7CB5 /* WuLi.xcdatamodeld */,
+				04D678CD27B8E06400CEC8A6 /* UserModel.xcdatamodeld */,
 			);
 			path = WuLi;
 			sourceTree = "<group>";
@@ -973,6 +976,7 @@
 				0454D96B279B01F50096B781 /* UserView.m in Sources */,
 				04881D562753A15C005C7CB5 /* DetailModel.m in Sources */,
 				0473DEE227674A0E005F6E75 /* ReleaseCircleView.m in Sources */,
+				04D678CF27B8E06400CEC8A6 /* UserModel.xcdatamodeld in Sources */,
 				0473DEEB2768751B005F6E75 /* AddImageCollectionViewCell.m in Sources */,
 				0496211E2779A54A00999EE8 /* LabelCollectionViewCell.m in Sources */,
 				049621182775AF3800999EE8 /* CircleSubmitCollectionViewCell.m in Sources */,
@@ -1372,6 +1376,16 @@
 			);
 			currentVersion = 04881CDE2750D204005C7CB5 /* WuLi.xcdatamodel */;
 			path = WuLi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		04D678CD27B8E06400CEC8A6 /* UserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04D678CE27B8E06400CEC8A6 /* UserModel.xcdatamodel */,
+			);
+			currentVersion = 04D678CE27B8E06400CEC8A6 /* UserModel.xcdatamodel */;
+			path = UserModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

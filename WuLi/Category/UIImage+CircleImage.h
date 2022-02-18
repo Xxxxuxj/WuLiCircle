@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (CircleImage)
 
+@property (nonatomic) NSString *imageName;
 //将图片裁剪成圆形
 - (UIImage *)circleImage;
 @end
